@@ -19,3 +19,10 @@ export const LoginBox = styled.div`
     cursor: pointer;
     color: #ffffff;
 `;
+
+export const LoginButton = styled.button`
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+`;
