@@ -1,5 +1,13 @@
+import { LoginPage } from "./pages/LoginPage";
+import { GlobalStyle } from "./styles/global";
+
 function App() {
-  return <div></div>;
+  return (
+    <>
+      <GlobalStyle />
+      <LoginPage />
+    </>
+  );
 }
 
 export default App;
